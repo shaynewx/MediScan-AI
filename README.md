@@ -8,27 +8,26 @@ Early prediction of multiple disease risks from electronic medical records is cr
 
 ## Project Summary
 
-Tasks: Predict 11 binary health condition labels
+- **Tasks**: Predict 11 binary health condition labels
 
-Models Used: Random Forest (one per label)
+- **Models Used**: Random Forest (one per label)
 
-Key Techniques: Missing value imputation, standardization, one-hot encoding, label-wise feature selection, oversampling, custom evaluation metrics
+- **Key Techniques**: Missing value imputation, standardization, one-hot encoding, label-wise feature selection, oversampling, custom evaluation metrics
 
 ## Models and Performance
 
 We trained a separate Random Forest classifier for each label and evaluated them individually. The overall system achieved the following average performance across all labels:
 
-Accuracy: 81.12%
+- Accuracy: 81.1%
 
-F1 Score: 0.4913
+- F1 Score: 0.49
 
-Precision: 0.7391
+- Precision: 0.74
 
-Recall: 0.4266
+- Recall: 0.43
 
-ROC AUC: 0.7189
+- ROC AUC: 0.72
 
-Custom Loss: 0.5141
 
 The confusion matrix and metrics suggest strong precision and balanced predictive power across imbalanced tasks.
 
